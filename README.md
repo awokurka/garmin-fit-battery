@@ -18,7 +18,11 @@ Pull and Run a precompiled Image from dockerhub:
 Open your Browser and open http://localhost:5000
 Select the .fit File which you have downloaded and extracted from https://connect.garmin.com and click upload.
 
+![Upload Form](https://raw.githubusercontent.com/awokurka/garmin-fit-battery/master/static/index.png "Upload .fit")
+
 You should now see a Table containing the Sensors and their Battery Levels. Keep in mind that not everytime a Value for Battery Level or Voltage is written into the .fit File. If this is the cause, then the Tool has no Data to read out of the file.
+
+![Result Table](https://raw.githubusercontent.com/awokurka/garmin-fit-battery/master/static/content.png "Result Table")
 
 ## How do i build my own Docker Image?
 Clone the Repository with git and change into the cloned directory. Then run:
