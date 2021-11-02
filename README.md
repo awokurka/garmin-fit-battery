@@ -10,7 +10,7 @@ Extract the .zip File and as a result you will get your Activity .fit File
 Install Docker Runtime on your Computer -> see docker.com for details
 
 Pull and Run Image from dockerhub:
-docker run -p 5000:5000 nailz/garmin-fit-battery:latest
+`docker run -p 5000:5000 nailz/garmin-fit-battery:latest`
 
 Open your Browser and open http://localhost:5000
 Select the .fit File which you have downloaded and extracted from connect.garmin.com and click upload.
