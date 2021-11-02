@@ -1,5 +1,5 @@
 # garmin-fit-battery
-Python Flask Script which tries to get Sensors Battery Levels from a Garmin .fit File if any where recorded.
+Python Flask Script which tries to get Sensors' battery level from a Garmin .fit File if any were recorded.
 
 ## Disclaimer: Do not run this image on a Public or Internet facing Computer/Server
 This was built in mind to run it locally. Do not run it on public servers, as there are no security mechanisms int the code, preventing that other files than .fit Files (e.g. malware, malicious code, unwanted data) can be uploaded with this script! You have been warned.
