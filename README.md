@@ -25,7 +25,7 @@ Clone the Repository with git and change into the cloned directory. Then run:
 `docker build -t garmin-fit-battery .`
 
 ## Can you check my .fit File? Can you add the follwing feature?
-This Code is free software, published under the GPL. Feel free to clone and edit it so that it fits your needs.
+This Code is free software, published under MIT License. Feel free to clone and edit it so that it fits your needs.
 
 ## Did you write the .fit Parser on your own?
 No i just wrote some wrapper around it, you can find the original Library here: https://github.com/dtcooper/python-fitparse
